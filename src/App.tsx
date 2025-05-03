@@ -1,4 +1,3 @@
-import ListGroup from "./components/ListGroup";
 import Hero from "./components/Hero";
 import { Fragment } from "react/jsx-runtime";
 import LookingGlass from "./components/LookingGlass";

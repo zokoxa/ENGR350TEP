@@ -1,5 +1,4 @@
 import { Fragment } from "react/jsx-runtime";
-import { Tooltip } from "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
