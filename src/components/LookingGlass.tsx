@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from "react";
+import "./LookingGlass.css";
 
 const LookingGlass = () => {
   const [mousePos, setMousePos] = useState({ x: 300, y: 200 });
@@ -23,7 +24,7 @@ const LookingGlass = () => {
 
   return (
     <Fragment>
-      <div className="container-fluid p-2">
+      <div id="lg" className="container-fluid p-2">
         <div className="row mt-4">
           <div
             onMouseMove={handleMouseMove}
