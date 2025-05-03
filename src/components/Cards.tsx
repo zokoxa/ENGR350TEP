@@ -9,7 +9,7 @@ interface CardData {
   imageUrl: string;
 }
 
-const card1 = "/ENGR350TEP/public/networking.svg";
+const card1 = "public/networking.svg";
 const card2 = "/public/child.svg";
 const card3 = "/public/you.svg";
 
