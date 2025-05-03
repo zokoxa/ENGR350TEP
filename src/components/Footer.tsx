@@ -15,7 +15,7 @@ const Footer = () => {
             aria-label="Tikblock"
           >
             <img
-              src="/tikblock.png"
+              src="tikblock.png"
               className="bi me-2"
               width="60"
               height="60"
