@@ -9,14 +9,14 @@ function Hero() {
       <section className="hero container-fluid d-flex align-items-center p-0 m-0">
         <video className="container-fluid p-0 m-0" autoPlay muted loop>
           <source
-            src="/AdobeStock_423600864_Video_HD_Preview.mov"
+            src="AdobeStock_423600864_Video_HD_Preview.mov"
             type="video/mp4"
           ></source>
         </video>
         <div className="container-fluid bg-dark position-absolute text-center text-light px-0 py-3 m-0">
           <img
             className="mb-1"
-            src="/ttlogo.png"
+            src="ttlogo.png"
             alt=""
             width="100"
             height="100"
