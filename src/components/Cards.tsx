@@ -9,7 +9,7 @@ interface CardData {
   imageUrl: string;
 }
 
-const card1 = "https://zokoxa.github.io/ENGR350TEP/public/networking.svg";
+const card1 = "../public/networking.svg";
 const card2 = "https://zokoxa.github.io/ENGR350TEP/public/child.svg";
 const card3 = "https://zokoxa.github.io/ENGR350TEP/public/you.svg";
 
