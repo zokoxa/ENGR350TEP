@@ -9,9 +9,9 @@ interface CardData {
   imageUrl: string;
 }
 
-const card1 = "public/networking.svg";
-const card2 = "/public/child.svg";
-const card3 = "/public/you.svg";
+const card1 = "networking.svg";
+const card2 = "child.svg";
+const card3 = "you.svg";
 
 const cardData: CardData[] = [
   {
