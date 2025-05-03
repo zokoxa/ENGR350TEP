@@ -24,14 +24,14 @@ const LookingGlass = () => {
   return (
     <Fragment>
       <div className="container-fluid p-2">
-        <div className="row my-4">
+        <div className="row mt-4">
           <div
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
             style={{
               position: "relative",
-              width: "2500px",
-              height: "400px",
+              width: "100%",
+              height: "500px",
               overflow: "hidden",
             }}
           >
