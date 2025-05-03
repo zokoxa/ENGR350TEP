@@ -9,9 +9,9 @@ interface CardData {
   imageUrl: string;
 }
 
-const card1 = "/networking.svg";
-const card2 = "/child.svg";
-const card3 = "/you.svg";
+const card1 = "https://zokoxa.github.io/ENGR350TEP/public/networking.svg";
+const card2 = "https://zokoxa.github.io/ENGR350TEP/public/child.svg";
+const card3 = "https://zokoxa.github.io/ENGR350TEP/public/you.svg";
 
 const cardData: CardData[] = [
   {
@@ -20,7 +20,7 @@ const cardData: CardData[] = [
     imageUrl: card1,
     summary: "Hint: Less than 5 hops",
     details:
-      "2 hops is all it takes! Perhaps even less when you consider he instituded the agencies between him and ByteDance. +100 social credit points if you got it!",
+      "2 hops is all it takes! Perhaps even less when you consider he instituted the agencies between him and ByteDance. +100 social credit points if you got it!",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const cardData: CardData[] = [
     imageUrl: card2,
     summary: "Hint: More than 30 minutes, less than 1 hour",
     details:
-      "40 mintues MAX! After that, the child is locked out until the next day. Oh! and all the content is educational during those 40 minutes. +300 social credit points if you got it!",
+      "40 minutes MAX! After that, the child is locked out until the next day. Oh! and all the content is educational during those 40 minutes. +300 social credit points if you got it!",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const cardData: CardData[] = [
     imageUrl: card3,
     summary: "Hint: Supply and demand!",
     details:
-      "Youtube is BANNED in China, although many people break the law and use VPNs to access it anyway. Imagine going to jail for watching a Youtube video! +500 social credit points if you got it!",
+      "YouTube is BANNED in China, although many people break the law and use VPNs to access it anyway. Imagine going to jail for watching a YouTube video! +500 social credit points if you got it!",
   },
 ];
 
