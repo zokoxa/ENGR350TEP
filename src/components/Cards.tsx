@@ -16,11 +16,12 @@ const card3 = "you.svg";
 const cardData: CardData[] = [
   {
     id: 1,
-    title: "How many hops until you reach President Xi Jinping from ByteDance?",
+    title:
+      "How many 'hops' until you reach President Xi Jinping from ByteDance?",
     imageUrl: card1,
     summary: "Hint: Less than 5 hops",
     details:
-      "2 hops is all it takes! Perhaps even less when you consider he instituted the agencies between him and ByteDance... Yikes! +100 social credit points if you got it!",
+      "2 or 3 'hops' is all it takes! Perhaps even less when you consider he instituted the agencies between him and ByteDance....yikes! +100 social credit points if you got it!",
   },
   {
     id: 2,
@@ -59,7 +60,7 @@ const ExpandableCards: React.FC = () => {
               key={card.id}
               className="col-12 col-md-6 col-lg-4 mb-5 align-content-center"
             >
-              <div className="card bg-secondary text-white">
+              <div className="card bg-secondary text-white ">
                 <div className="card-header bg-dark border-0 d-flex align-items-center">
                   <img
                     src={card.imageUrl}
