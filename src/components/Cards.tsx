@@ -20,7 +20,7 @@ const cardData: CardData[] = [
     imageUrl: card1,
     summary: "Hint: Less than 5 hops",
     details:
-      "2 hops is all it takes! Perhaps even less when you consider he instituted the agencies between him and ByteDance. +100 social credit points if you got it!",
+      "2 hops is all it takes! Perhaps even less when you consider he instituted the agencies between him and ByteDance... Yikes! +100 social credit points if you got it!",
   },
   {
     id: 2,
