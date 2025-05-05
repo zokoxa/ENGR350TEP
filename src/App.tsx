@@ -11,8 +11,8 @@ function App() {
     <Fragment>
       <Hero></Hero>
       <LookingGlass></LookingGlass>
-      <ExpandableCards></ExpandableCards>
       <Video></Video>
+      <ExpandableCards></ExpandableCards>
       <Footer></Footer>
     </Fragment>
   );
