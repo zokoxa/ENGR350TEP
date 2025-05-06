@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 function App() {
   document.title = "TikTok vs Douyin";
   document.body.style.backgroundColor = "#FE2C55";
-  document.body.style.cursor = "url('TikTok_Cursor.png'); default";
+  document.body.style.cursor = "url('/TikTok_Cursor.png'); default";
   return (
     <Fragment>
       <Hero></Hero>
