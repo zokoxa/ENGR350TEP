@@ -25,7 +25,7 @@ const LookingGlass = () => {
   return (
     <Fragment>
       <div id="lg" className="container-fluid p-2">
-        <div className="row mt-5">
+        <div className="row mt-2">
           <div
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
