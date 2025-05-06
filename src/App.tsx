@@ -13,8 +13,8 @@ function App() {
     <Fragment>
       <Hero></Hero>
       <LookingGlass></LookingGlass>
-      <Video></Video>
       <ExpandableCards></ExpandableCards>
+      <Video></Video>
       <Footer></Footer>
     </Fragment>
   );
