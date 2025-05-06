@@ -9,3 +9,7 @@ html, body {
 iframe {
     cursor: url("https://cdn.custom-cursor.com/db/pointer/32/TikTok_Pointer.png "), pointer !important;
 }
+
+#player {
+    cursor: url("https://cdn.custom-cursor.com/db/pointer/32/TikTok_Pointer.png "), pointer !important;
+}
