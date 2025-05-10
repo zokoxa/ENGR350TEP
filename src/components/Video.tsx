@@ -10,15 +10,15 @@ const Video = () => {
         <div className="d-flex align-items-center justify-content-center flex-wrap">
           {/* Left image */}
           <img
-            src="astro.avif"
+            src="astro.jpg"
             alt="astronauts"
-            className="img-fluid mx-2 d-none d-md-block"
+            className="img-fluid mx-2 d-none d-md-block p-2 bg-dark"
             style={{ maxWidth: "15%", height: "auto" }}
           />
 
           {/* Video iframe container */}
           <div
-            className="flex-shrink-1 flex-grow-1 mx-2"
+            className="flex-shrink-1 flex-grow-1 mx-2 p-1 bg-dark"
             style={{ maxWidth: "65%", width: "100%" }}
           >
             <iframe
@@ -35,7 +35,7 @@ const Video = () => {
           <img
             src="pauls.png"
             alt="pauls"
-            className="img-fluid mx-2 d-none d-md-block"
+            className="img-fluid mx-2 d-none d-md-block p-2 bg-dark"
             style={{ maxWidth: "15%", height: "auto" }}
           />
         </div>
