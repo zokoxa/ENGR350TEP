@@ -18,11 +18,10 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
     if (timeLeft === 0) {
       // play end sound
       const audio = new Audio(endSoundUrl);
-      audio
-        .play()
-        .catch((err) => console.warn("Unable to play end sound:", err));
-      setTimeout("2000");
-      alert("Times up!");
+      audio.play().then(() => {
+        console.log("Sound played successfully");
+        alert("Times up!");
+      });
     }
   }, [timeLeft, endSoundUrl]);
 
