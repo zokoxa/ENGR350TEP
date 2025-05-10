@@ -38,7 +38,7 @@ const LookingGlass = () => {
           >
             {/* Top */}
             <img
-              className="img-fluid"
+              className="img-fluid shadow"
               src="Banner.png"
               alt=""
               style={{
@@ -51,7 +51,7 @@ const LookingGlass = () => {
 
             {/* Under */}
             <img
-              className="img-fluid"
+              className="img-fluid shadow"
               src="Banner-Under.png"
               alt=""
               style={{

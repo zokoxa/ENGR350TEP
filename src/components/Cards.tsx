@@ -70,7 +70,7 @@ const ExpandableCards: React.FC = () => {
               key={card.id}
               className="col-12 col-md-6 col-lg-4 mb-5 align-content-center"
             >
-              <div className="card bg-secondary text-white ">
+              <div className="card bg-secondary text-white shadow">
                 <div className="card-header bg-dark border-0 d-flex align-items-center">
                   <img
                     src={card.imageUrl}

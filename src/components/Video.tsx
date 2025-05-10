@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import "./Video.css";
 
 const Video = () => {
   return (
@@ -12,13 +13,13 @@ const Video = () => {
           <img
             src="astro.jpg"
             alt="astronauts"
-            className="img-fluid mx-2 d-none d-md-block p-2 bg-dark rounded-3"
+            className="img-fluid mx-2 d-none d-md-block p-2 bg-dark rounded-3 shadow-lg"
             style={{ maxWidth: "15%", height: "auto" }}
           />
 
           {/* Video iframe container */}
           <div
-            className="flex-shrink-1 flex-grow-1 m-1"
+            className="flex-shrink-1 flex-grow-1 m-1 shadow-lg"
             style={{ maxWidth: "65%", width: "100%" }}
           >
             <iframe
@@ -35,7 +36,7 @@ const Video = () => {
           <img
             src="pauls.png"
             alt="pauls"
-            className="img-fluid mx-2 d-none d-md-block p-2 bg-dark rounded-3"
+            className="img-fluid mx-2 d-none d-md-block p-2 bg-dark rounded-3 shadow-lg"
             style={{ maxWidth: "15%", height: "auto" }}
           />
         </div>
