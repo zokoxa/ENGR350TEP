@@ -18,11 +18,11 @@ const Video = () => {
 
           {/* Video iframe container */}
           <div
-            className="flex-shrink-1 flex-grow-1 m-2 p-0 bg-dark rounded-3"
+            className="flex-shrink-1 flex-grow-1 m-4"
             style={{ maxWidth: "65%", width: "100%" }}
           >
             <iframe
-              className="w-100 rounded-3 bg-dark"
+              className="w-100 rounded-3"
               style={{ aspectRatio: "16/9" }}
               src="https://www.youtube-nocookie.com/embed/0j0xzuh-6rY?si=JuhZdTlzZOZQyACp"
               title="Tikkok vs Douyin"
