@@ -28,7 +28,7 @@ const cardData: CardData[] = [
     id: 2,
     title:
       "Yes or no, Douyin is just trying to not infringe on freedoms outside of China?",
-    imageUrl: card4,
+    imageUrl: card2,
     summary: "Hint: Watch your words!",
     details:
       "There is no wrong answer here, we were only asking your opinion on this issue, but if you answered yes... +10000000000000 social credit to you!",
@@ -36,7 +36,7 @@ const cardData: CardData[] = [
   {
     id: 3,
     title: "On average, how many minutes a day does a child spend on Douyin?",
-    imageUrl: card2,
+    imageUrl: card3,
     summary: "Hint: 30 mins < X < 60 mins",
     details:
       "40 minutes MAX! After that, the child is locked out until the next day. Oh! and all the content is educational during those 40 minutes. +300 social credit points if you got it!",
@@ -44,7 +44,7 @@ const cardData: CardData[] = [
   {
     id: 4,
     title: "Why is Douyin's long format video feature so popular in China?",
-    imageUrl: card3,
+    imageUrl: card4,
     summary: "Hint: Supply and demand!",
     details:
       "YouTube is BANNED in China, although many people break the law and use VPNs to access it anyway. +500 social credit points if you got it and don't use VPNs to access Youtube!",
