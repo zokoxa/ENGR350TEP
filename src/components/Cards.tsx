@@ -47,7 +47,7 @@ const cardData: CardData[] = [
     imageUrl: card4,
     summary: "Hint: Supply and demand!",
     details:
-      "YouTube is BANNED in China, although many people break the law and use VPNs to access it anyway. +500 social credit points if you got it and don't use VPNs to access Youtube!",
+      "YouTube is BANNED in China, although many people break the law and use VPNs to access it anyway. +500 social credit points if you got it and don't use VPNs to access YouTube!",
   },
 ];
 
