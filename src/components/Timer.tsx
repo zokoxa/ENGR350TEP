@@ -3,36 +3,31 @@ import React, { useState, useEffect } from "react";
 interface CountdownTimerProps {
   /** Duration in seconds, default is 180 seconds (3 minutes) */
   duration?: number;
-  /** URL of the sound to play when the timer starts */
-  startSoundUrl?: string;
+  /** URL of the sound to play when the timer ends */
+  endSoundUrl?: string;
 }
 
 const CountdownTimer: React.FC<CountdownTimerProps> = ({
   duration = 180,
-  startSoundUrl = "aaa.m4a",
+  endSoundUrl = "aaa.m4a",
 }) => {
   const [timeLeft, setTimeLeft] = useState<number>(duration);
 
-  // Play a sound when the component mounts (timer starts)
-  useEffect(() => {
-    const audio = new Audio(startSoundUrl);
-    audio.play().catch((err) => {
-      console.warn("Unable to play start sound:", err);
-    });
-  }, [startSoundUrl]);
-
-  // Alert when time is up
+  // Alert and play sound when time is up
   useEffect(() => {
     if (timeLeft === 0) {
+      // play end sound
+      const audio = new Audio(endSoundUrl);
+      audio
+        .play()
+        .catch((err) => console.warn("Unable to play end sound:", err));
       alert("Times up!");
     }
-  }, [timeLeft]);
+  }, [timeLeft, endSoundUrl]);
 
   // Countdown logic
   useEffect(() => {
-    if (timeLeft <= 0) {
-      return;
-    }
+    if (timeLeft <= 0) return;
     const intervalId = setInterval(() => {
       setTimeLeft((prev) => Math.max(prev - 1, 0));
     }, 1000);
@@ -52,8 +47,8 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
           top: 0,
           left: 0,
           width: "100%",
-          height: "6px",
-          backgroundColor: "transparent",
+          height: "7px",
+          backgroundColor: "black",
           zIndex: 9999,
         }}
       >
