@@ -22,31 +22,32 @@ const cardData: CardData[] = [
     imageUrl: card1,
     summary: "Hint: Less than 5 hops",
     details:
-      "2 or 3 'hops' is all it takes! Perhaps even less when you consider he instituted the agencies between him and ByteDance....yikes! +100 social credit points if you got it!",
+      "2 'hops' is all it takes! Perhaps even less when you consider he instituted the agencies between him and ByteDance....yikes! +100 social credit points if you said more than 2 hops!",
   },
   {
     id: 2,
-    title: "How many minutes a day does a child spend on Douyin on average?",
+    title: "On average, how many minutes a day does a child spend on Douyin?",
     imageUrl: card2,
-    summary: "Hint: More than 30 minutes, less than 1 hour",
+    summary: "Hint: 30 mins < X < 60 mins",
     details:
       "40 minutes MAX! After that, the child is locked out until the next day. Oh! and all the content is educational during those 40 minutes. +300 social credit points if you got it!",
   },
   {
     id: 3,
-    title: "Why is Douyin's long format video feature so popular?",
+    title: "Why is Douyin's long format video feature so popular in China?",
     imageUrl: card3,
     summary: "Hint: Supply and demand!",
     details:
-      "YouTube is BANNED in China, although many people break the law and use VPNs to access it anyway. Imagine going to jail for watching a YouTube video! +500 social credit points if you got it!",
+      "YouTube is BANNED in China, although many people break the law and use VPNs to access it anyway. +500 social credit points if you got it and don't use VPNs to access Youtube!",
   },
   {
     id: 4,
     title:
-      "Do you think China is just trying to respect freedom of choice outside its borders?",
+      "Yes or no, Douyin is just trying to not infringe on freedoms outside of China?",
     imageUrl: card4,
-    summary: "There is no wrong answer, We are asking for your opinion!",
-    details: "If you said yes, +1000 social credit points!",
+    summary: "Hint: Watch your words!",
+    details:
+      "There is no wrong answer here, we were only asking your opinion on this issue, but if you answered yes... +10000000000000 social credit to you!",
   },
 ];
 
