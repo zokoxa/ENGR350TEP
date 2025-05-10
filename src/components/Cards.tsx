@@ -12,6 +12,7 @@ interface CardData {
 const card1 = "networking.svg";
 const card2 = "child.svg";
 const card3 = "you.svg";
+const card4 = "brain.svg";
 
 const cardData: CardData[] = [
   {
@@ -38,6 +39,14 @@ const cardData: CardData[] = [
     summary: "Hint: Supply and demand!",
     details:
       "YouTube is BANNED in China, although many people break the law and use VPNs to access it anyway. Imagine going to jail for watching a YouTube video! +500 social credit points if you got it!",
+  },
+  {
+    id: 4,
+    title:
+      "Do you think China is just trying to respect freedom of choice outside its borders?",
+    imageUrl: card4,
+    summary: "There is no wrong answer, We are asking for your opinion!",
+    details: "If you said yes, +1000 social credit points!",
   },
 ];
 
