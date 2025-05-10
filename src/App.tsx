@@ -4,6 +4,7 @@ import LookingGlass from "./components/LookingGlass";
 import ExpandableCards from "./components/Cards";
 import Video from "./components/Video";
 import Footer from "./components/Footer";
+import CountdownTimer from "./components/Timer";
 import "./App.css";
 function App() {
   document.title = "TikTok vs Douyin";
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <Fragment>
+      <CountdownTimer></CountdownTimer>
       <Hero></Hero>
       <LookingGlass></LookingGlass>
       <ExpandableCards></ExpandableCards>
