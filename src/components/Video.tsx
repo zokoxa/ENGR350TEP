@@ -19,7 +19,7 @@ const Video = () => {
 
           {/* Video iframe container */}
           <div
-            className="flex-shrink-1 flex-grow-1 m-1 shadow-lg"
+            className="flex-shrink-1 flex-grow-1 m-1"
             style={{ maxWidth: "65%", width: "100%" }}
           >
             <iframe
