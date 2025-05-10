@@ -60,8 +60,8 @@ const ExpandableCards: React.FC = () => {
   };
 
   return (
-    <div className="container py-3 my-2 justify-content-center align-items-center">
-      <div className="row">
+    <div className="container py-3 my-2 align-items-center">
+      <div className="row justify-content-center">
         {cardData.map((card) => {
           const isExpanded = expandedIds.includes(card.id);
           return (
