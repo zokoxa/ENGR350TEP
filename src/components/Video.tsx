@@ -10,14 +10,12 @@ const Video = () => {
         </h2>
         <div className="d-flex align-items-center justify-content-center flex-wrap">
           {/* Left image */}
-          <div className="container p-0 bg-dark rounded-3 shadow-lg">
-            <img
-              src="astro.jpg"
-              alt="astronauts"
-              className="img-fluid mx-2 d-none d-md-block p-0 rounded-3 "
-              style={{ maxWidth: "15%", height: "auto", borderRadius: "50px" }}
-            />
-          </div>
+          <img
+            src="astro.jpg"
+            alt="astronauts"
+            className="img-fluid mx-2 d-none d-md-block p-0 bg-dark rounded-3 shadow-lg"
+            style={{ maxWidth: "15%", height: "auto", borderRadius: "50px" }}
+          />
 
           {/* Video iframe container */}
           <div
