@@ -19,7 +19,7 @@ const LookingGlass = () => {
   };
 
   const clipPath = showEffect
-    ? `circle(175px at ${mousePos.x}px ${mousePos.y}px)`
+    ? `circle(190px at ${mousePos.x}px ${mousePos.y}px)`
     : `circle(0px at -100px -100px)`; // Hide the hole off-screen
 
   return (
