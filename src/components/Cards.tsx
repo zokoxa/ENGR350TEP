@@ -31,7 +31,7 @@ const cardData: CardData[] = [
     imageUrl: card2,
     summary: "Hint: Watch your words!",
     details:
-      "There is no wrong answer here, we were only asking your opinion on this issue, but if you answered yes... +10000000000000 social credit to you!",
+      "There is no wrong answer here, we were only asking your opinion on this issue, but if you answered yes.... +10000000000000000000000000 social credit to you!",
   },
   {
     id: 3,
