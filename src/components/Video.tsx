@@ -14,7 +14,7 @@ const Video = () => {
             src="astro.jpg"
             alt="astronauts"
             className="img-fluid mx-2 d-none d-md-block p-2 bg-dark rounded-3 shadow-lg"
-            style={{ maxWidth: "15%", height: "auto" }}
+            style={{ maxWidth: "15%", height: "auto", borderRadius: "25%" }}
           />
 
           {/* Video iframe container */}
@@ -37,7 +37,7 @@ const Video = () => {
             src="pauls.png"
             alt="pauls"
             className="img-fluid mx-2 d-none d-md-block p-2 bg-dark rounded-3 shadow-lg"
-            style={{ maxWidth: "15%", height: "auto" }}
+            style={{ maxWidth: "15%", height: "auto", borderRadius: "25%" }}
           />
         </div>
       </div>
