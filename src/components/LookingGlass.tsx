@@ -51,7 +51,7 @@ const LookingGlass = () => {
 
             {/* Under */}
             <img
-              className="img-fluid shadow"
+              className="img-fluid"
               src="Banner-Under.png"
               alt=""
               style={{
