@@ -1,3 +1,9 @@
 h2{
     text-shadow: 2px 7px 30px black !important;
 }
+
+@media (max-width: 767px) {
+    .video-container {
+        max-width: 100% !important;
+    }
+}

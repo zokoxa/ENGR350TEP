@@ -1,12 +1,13 @@
 import { Fragment } from "react/jsx-runtime";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./Hero.css";
 
 function Hero() {
   return (
     <Fragment>
       <section className="hero container-fluid d-flex align-items-center p-0 m-0">
-        <video className="container-fluid p-0 m-0" autoPlay muted loop>
+        <video className="container-fluid p-0 m-0 hero-video" autoPlay muted loop playsInline>
           <source
             src="AdobeStock_423600864_Video_HD_Preview.mov"
             type="video/mp4"

@@ -1,5 +1,17 @@
-#lg{
-    @media screen and (max-width: 1080px) { 
-        display: none !important;
+/* Mobile: show stacked split, hide looking glass */
+#lg {
+    display: none;
+}
+#lg-mobile {
+    display: block;
+}
+
+/* Desktop: show looking glass, hide stacked split */
+@media screen and (min-width: 768px) {
+    #lg {
+        display: block;
+    }
+    #lg-mobile {
+        display: none;
     }
 }

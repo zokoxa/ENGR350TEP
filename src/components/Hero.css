@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+    .hero-video {
+        min-height: 420px;
+        object-fit: cover;
+    }
+}

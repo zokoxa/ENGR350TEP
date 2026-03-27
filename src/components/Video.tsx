@@ -19,7 +19,7 @@ const Video = () => {
 
           {/* Video iframe container */}
           <div
-            className="flex-shrink-1 flex-grow-1 m-1"
+            className="flex-shrink-1 flex-grow-1 m-1 video-container"
             style={{ maxWidth: "65%", width: "100%" }}
           >
             <iframe
@@ -39,6 +39,12 @@ const Video = () => {
             className="img-fluid mx-2 d-none d-md-block p-0 bg-dark rounded-3 shadow-lg"
             style={{ maxWidth: "15%", height: "auto", borderRadius: "50px" }}
           />
+        </div>
+
+        {/* Mobile only: images below video */}
+        <div className="d-flex d-md-none justify-content-center align-items-center gap-3 mt-3 px-3 pb-4">
+          <img src="astro.jpg" alt="astronauts" className="bg-dark shadow-lg" style={{ width: "45%", borderRadius: "30px" }} />
+          <img src="pauls.png" alt="pauls" className="bg-dark shadow-lg" style={{ width: "45%", borderRadius: "30px" }} />
         </div>
       </div>
     </Fragment>
